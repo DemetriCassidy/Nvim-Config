@@ -50,12 +50,13 @@ return packer.startup(function(use)
 	--use 'jiangmiao/auto-pairs'
 	use({ "catppuccin/nvim", as = "catppuccin" })
 	use("Mofiqul/dracula.nvim")
+	use("folke/tokyonight.nvim")
 	--use "junegunn/rainbow_parentheses.vim"
 	use("kyazdani42/nvim-web-devicons")
 	use("kyazdani42/nvim-tree.lua")
 	use("nvim-lualine/lualine.nvim")
 	use("windwp/nvim-autopairs")
-    use("akinsho/toggleterm.nvim")
+	use("akinsho/toggleterm.nvim")
 
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp") -- completion handler
@@ -86,7 +87,7 @@ return packer.startup(function(use)
 	})
 	use("p00f/nvim-ts-rainbow")
 	use("nvim-treesitter/playground")
-    use("nvim-orgmode/orgmode")
+	use("nvim-orgmode/orgmode")
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
