@@ -47,11 +47,9 @@ return packer.startup(function(use)
 	use({ "9mm/vim-closer", disable = true }) -- adds closing brackets and parentheses
 	use({ "tpope/vim-dispatch", opt = true, cmd = { "Dispatch", "Make", "Focus", "Start" } })
 	use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", cmd = "MarkdownPreview" })
-	--use 'jiangmiao/auto-pairs'
 	use({ "catppuccin/nvim", as = "catppuccin" })
 	use("Mofiqul/dracula.nvim")
 	use("folke/tokyonight.nvim")
-	--use "junegunn/rainbow_parentheses.vim"
 	use("kyazdani42/nvim-web-devicons")
 	use("kyazdani42/nvim-tree.lua")
 	use("nvim-lualine/lualine.nvim")
