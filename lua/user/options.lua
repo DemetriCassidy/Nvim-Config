@@ -26,7 +26,7 @@ local options = {
 	completeopt = { "menuone", "noselect" },
 	showmode = false, -- no need to show mode under statusline
 	wrap = false, -- show long lines as one big line
-	guifont = "Iosevka Nerd Font Mono:h14", -- font for gui clients
+	guifont = "Iosevka Nerd Font Mono:h15", -- font for gui clients
 }
 for k, v in pairs(options) do
 	vim.opt[k] = v
