@@ -27,6 +27,7 @@ local options = {
 	showmode = false, -- no need to show mode under statusline
 	wrap = false, -- show long lines as one big line
 	guifont = "Iosevka Nerd Font Mono:h15", -- font for gui clients
+    list = true,
 }
 for k, v in pairs(options) do
 	vim.opt[k] = v

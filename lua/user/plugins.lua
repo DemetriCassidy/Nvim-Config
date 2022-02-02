@@ -55,6 +55,7 @@ return packer.startup(function(use)
 	use("nvim-lualine/lualine.nvim")
 	use("windwp/nvim-autopairs")
 	use("akinsho/toggleterm.nvim")
+    use("lukas-reineke/indent-blankline.nvim")
 
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp") -- completion handler
